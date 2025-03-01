@@ -5,50 +5,57 @@ html{
   height: 100%;
 }
 
+.constant{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: fixed;
+  background: linear-gradient(rgb(13, 12, 14) 30%, rgb(50, 33, 64)100% );
+}
 
 body{
   height: 100%;
   margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   font-family: montserrat, Arial, Helvetica ;
-  background: linear-gradient(rgb(13, 12, 14) 30%, rgb(50, 33, 64)100% );
+  
 }
 
 .toolbar{
-  display: flex;
-  justify-content: right;
   background-color: rgba(0, 0, 0, 0.6);
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   color: blanchedalmond;
 }
 
-.list-container{
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
   display: inline-block;
+  margin-left: 3em;
 }
 
 .logo h2{
-  position: fixed;
+  
   left: 5%;
   margin:0;
   padding: 0;
   top:0.8rem;
 } 
 
-.toolbar-list{
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  gap: 2rem;
-  align-content: center;
-}
-
-.toolbar ul{
+.toolbar li {
   list-style: none;
+  display: inline-block;
+  margin-right: 3em;
 }
 
-.toolbar-list a {
+
+ a {
   color: blanchedalmond;
 }
 
