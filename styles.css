@@ -61,7 +61,7 @@ body{
   color: blanchedalmond;
 }
 
-p, h1, h2{
+p, h1, h2, address{
   color: blanchedalmond;
 }
 
@@ -72,4 +72,8 @@ main{
 .temp{
   position: absolute;
   top: 2000px;
+}
+
+.contact-info{
+  margin-top:15%;
 }
